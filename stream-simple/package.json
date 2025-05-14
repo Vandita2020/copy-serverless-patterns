@@ -1,0 +1,15 @@
+{
+  "name": "stream-simple",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "PORT=3000 tsx watch index.ts",
+    "build": "tsc && cp ./index.html ./dist/"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": "^22.15.17",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

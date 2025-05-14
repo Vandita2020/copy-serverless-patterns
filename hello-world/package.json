@@ -1,0 +1,7 @@
+{
+  "name": "@lite-fixture/hello-world",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'nothing to build'"
+  }
+}
