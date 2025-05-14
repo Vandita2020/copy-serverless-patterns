@@ -1,0 +1,7 @@
+{
+  "MY_DATABASE": {
+    "type": "aws/dsql",
+    "databaseId": "miabtyn3jizyxugnyxiqlomon4",
+    "regions": ["us-east-2"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "dsql-dice-app",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "serve": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@aws/lambda-lite": "file:../../pkg/sdk/js/dist/aws-lambda-lite-0.1.0.tgz"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}
